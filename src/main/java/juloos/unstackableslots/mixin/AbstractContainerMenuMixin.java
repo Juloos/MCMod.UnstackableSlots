@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
 
 @Mixin(AbstractContainerMenu.class)
-public class AbstractContainerMenuMixin {
+public abstract class AbstractContainerMenuMixin {
     @Shadow @Final public NonNullList<Slot> slots;
 
     /**
