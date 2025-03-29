@@ -1,0 +1,28 @@
+{
+    "schemaVersion": 1,
+    "id": "unstackableslots",
+    "version": "${version}",
+    "name": "UnstackableSlots",
+    "description": "Everything stacks up to max 1 item",
+    "authors": [
+        "Juloos"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/unstackableslots/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "client": [
+        ],
+        "main": [
+        ]
+    },
+    "mixins": [
+        "unstackableslots.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+        "minecraft": ">=${minecraft_version}"
+    }
+}

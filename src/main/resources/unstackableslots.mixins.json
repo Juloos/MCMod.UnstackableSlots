@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "juloos.unstackableslots.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "AbstractContainerMenuMixin",
+        "ItemStackMixin"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
